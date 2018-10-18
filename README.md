@@ -1,6 +1,6 @@
 # 🙂 SwiduxWatchmen
 
-Swidux middleware for action side effects using "Watchmen".
+[Swidux](https://github.com/clmntcrl/swidux) middleware for action side effects using "Watchmen".
 
 ## Stability
 
