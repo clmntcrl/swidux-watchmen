@@ -39,14 +39,41 @@ let store = Store<AppState>(
 
 ## Installation
 
+### [Carthage](https://github.com/Carthage/Carthage)
+
+Add the following dependency to your Cartfile:
+
+```
+github "clmntcrl/swidux-watchmen" ~> 0.1.0
+```
+
+```
+$ carthage update
+```
+
+You should encounter an issue (something like `Dependency "swidux-watchmen" has no shared framework schemes`) because libraries using SwiftPM are not currently supported by Carthage. This can be resolved with the following: 
+
+```
+$ (cd Carthage/Checkouts/swidux-watchmen && swift package generate-xcodeproj)
+$ carthage build swidux-watchmen
+```
+
+### [SwiftPM](https://github.com/apple/swift-package-manager)
+
+Add package as dependency:
+
 ```swift
 import PackageDescription
 
 let package = Package(
     dependencies: [
-        .package(url: "https://github.com/clmntcrl/swidux-watchmen.git", .branch("master")),
+        .package(url: "https://github.com/clmntcrl/swidux-watchmen.git", from: "0.1.0"),
     ]
 )
+```
+
+```
+$ swift build
 ```
 
 ## License
