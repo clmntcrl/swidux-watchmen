@@ -45,7 +45,7 @@ store = Store<AppState>(
     initialState: AppState(),
     reducer: doomsdayClockReducer.lift(\.doomsdayClock),
     middlewares: [
-        combineWatchmen([ doomsdayClockWatchmen ]),
+        .create(combiningWatchmen: [ doomsdayClockWatchmen ]),
     ]
 )
 
@@ -54,3 +54,5 @@ let token = store.subscribe(\.doomsdayClock) {
 }
 
 store.dispatch(DoomsdayClockAction.fetchDoomsdayClock)
+
+print("✅")

@@ -32,7 +32,7 @@ let store = Store<AppState>(
     initialState: AppState(),
     reducer: reducer,
     middlewares: [
-        combineWatchmen([ doomsdayClockWatchmen ]),
+        .create(combiningWatchmen: [ doomsdayClockWatchmen ]),
     ]
 )
 ```

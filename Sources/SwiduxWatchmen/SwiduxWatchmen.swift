@@ -19,10 +19,13 @@ private let watchmentQueue = DispatchQueue(
     attributes: .concurrent
 )
 
-public func combineWatchmen<AppState>(_ watchmen: [Watchmen]) -> Middleware<AppState> {
-    return Middleware { _, action in
-        watchmen.forEach { 🙂 in
-            watchmentQueue.async { 🙂.watch(action) }
+public extension Middleware {
+
+    static func create<AppState>(combiningWatchmen watchmen: [Watchmen]) -> Middleware<AppState> {
+        return Middleware<AppState> { _, action in
+            watchmen.forEach { 🙂 in
+                watchmentQueue.async { 🙂.watch(action) }
+            }
         }
     }
 }
