@@ -22,9 +22,14 @@ private let watchmentQueue = DispatchQueue(
 public extension Middleware {
 
     static func create<AppState>(combiningWatchmen watchmen: [Watchmen]) -> Middleware<AppState> {
-        return Middleware<AppState> { _, action in
-            watchmen.forEach { 🙂 in
-                watchmentQueue.async { 🙂.watch(action) }
+        return .init { store in
+            return { dispach in
+                return { action in
+                    watchmen.forEach { 🙂 in
+                        watchmentQueue.async { 🙂.watch(action) }
+                    }
+                    dispach(action)
+                }
             }
         }
     }

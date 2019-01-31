@@ -7,343 +7,490 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC3FE57A21F7A16D009CA663 /* SwiduxWatchmen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3FE57021F7A16D009CA663 /* SwiduxWatchmen.framework */; };
-		FC3FE57F21F7A16D009CA663 /* SwiduxWatchmenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3FE57E21F7A16D009CA663 /* SwiduxWatchmenTests.swift */; };
-		FC3FE58121F7A16D009CA663 /* SwiduxWatchmen.h in Headers */ = {isa = PBXBuildFile; fileRef = FC3FE57321F7A16D009CA663 /* SwiduxWatchmen.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC3FE58B21F7A21E009CA663 /* SwiduxWatchmen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3FE58A21F7A21E009CA663 /* SwiduxWatchmen.swift */; };
-		FC3FE59821F7A2A7009CA663 /* Swidux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3FE59521F7A292009CA663 /* Swidux.framework */; };
+		0FA6577339B08DE988466A24388F9799 /* SwiduxWatchmen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5774D763E7711E4FCEA46C07DABF4 /* SwiduxWatchmen.swift */; };
+		122A061600A31CB6DDB28EFCA9092802 /* SwiduxWatchmen.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ACE2D7AD9D82E323E614A5C5A686309E /* SwiduxWatchmen.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		20BA9E2B169177F3538DEC798AE9E965 /* SwiduxWatchmen.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 64BD3FFA0248B0E6D1F5A45081B6A44E /* SwiduxWatchmen.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2E3CA772FFA7153B689ABB7B72A5410B /* SwiduxWatchmenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB6AF9B76D360AA7F6164E5F222E8BE /* SwiduxWatchmenTests.swift */; };
+		47F6F1CB3AE87C8C2A64D6F4EE5A6A1C /* Swidux.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 847624947D12C5F29739AAD04B91F435 /* Swidux.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		48B73CE583B99BF4C7119CAE18770091 /* SwiduxWatchmenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB6AF9B76D360AA7F6164E5F222E8BE /* SwiduxWatchmenTests.swift */; };
+		4A3DF77BB0E69DE5C5594F37377925F9 /* SwiduxWatchmen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFD643D26AB0F5AD665B964EB7096971 /* SwiduxWatchmen.framework */; };
+		956E4352754C585EDE49B0FB1A40BA74 /* SwiduxWatchmen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE2D7AD9D82E323E614A5C5A686309E /* SwiduxWatchmen.framework */; };
+		96B84D1B6327CD5287C945A0517EF046 /* Swidux.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4442DC84595D80F111598D86497AEB5C /* Swidux.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AB7DE7681F65B06718D01487190ECAD3 /* SwiduxWatchmen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5774D763E7711E4FCEA46C07DABF4 /* SwiduxWatchmen.swift */; };
+		ABA5C5369EC12224330256ECAF0F42F8 /* SwiduxWatchmen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5774D763E7711E4FCEA46C07DABF4 /* SwiduxWatchmen.swift */; };
+		C0471D7355B8B70C3D36B31025F0F906 /* SwiduxWatchmenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB6AF9B76D360AA7F6164E5F222E8BE /* SwiduxWatchmenTests.swift */; };
+		D448A5120C98E019F0C27558CA548D28 /* Swidux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FD22F297CE39CF8F805D5A37FE8F11 /* Swidux.framework */; };
+		EB370651C556BBD37192D7527CFAA7A0 /* SwiduxWatchmen.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FFD643D26AB0F5AD665B964EB7096971 /* SwiduxWatchmen.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0FA7BA5CB8E17154F23FE37A25CBCAD /* SwiduxWatchmen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BD3FFA0248B0E6D1F5A45081B6A44E /* SwiduxWatchmen.framework */; };
+		F4ACB6692EAE942450A3B951BF87C5C6 /* Swidux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4442DC84595D80F111598D86497AEB5C /* Swidux.framework */; };
+		FC5178353198E23C33E608AA39BB9325 /* Swidux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847624947D12C5F29739AAD04B91F435 /* Swidux.framework */; };
+		FD4C81B70F82E2DBB3413CAEB0EF11E2 /* Swidux.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B0FD22F297CE39CF8F805D5A37FE8F11 /* Swidux.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FC3FE57B21F7A16D009CA663 /* PBXContainerItemProxy */ = {
+		CB51B6C93E7573599FEC91DD654A8BE7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FC3FE56721F7A16D009CA663 /* Project object */;
+			containerPortal = 7275C5B0546F1244246E9857DFE4ABB1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FC3FE56F21F7A16D009CA663;
-			remoteInfo = SwiduxWatchmen;
+			remoteGlobalIDString = CFA8CC8D74F3A1570B8FB2E67062214C;
+			remoteInfo = SwiduxWatchmen_macOS;
 		};
-		FC3FE59421F7A292009CA663 /* PBXContainerItemProxy */ = {
+		D5ADE9EEEE335587631941F1E6FF874B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FC3FE58D21F7A291009CA663 /* Swidux.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = "Swidux::Swidux::Product";
-			remoteInfo = Swidux;
+			containerPortal = 7275C5B0546F1244246E9857DFE4ABB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D982E3AA615E0797A6F7BF3E4519A6A;
+			remoteInfo = SwiduxWatchmen_iOS;
 		};
-		FC3FE59621F7A292009CA663 /* PBXContainerItemProxy */ = {
+		DF1225C87F6BE29C73C45BDDF6C78130 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FC3FE58D21F7A291009CA663 /* Swidux.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = "Swidux::SwiduxTests::Product";
-			remoteInfo = SwiduxTests;
+			containerPortal = 7275C5B0546F1244246E9857DFE4ABB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCC6B4F5671F444969D01B4EFBC06289;
+			remoteInfo = SwiduxWatchmen_tvOS;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7BCD2CB740DD1FA8BCE8A0890C293FAA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				122A061600A31CB6DDB28EFCA9092802 /* SwiduxWatchmen.framework in Embed Frameworks */,
+				FD4C81B70F82E2DBB3413CAEB0EF11E2 /* Swidux.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2408FE062E8B153A9DF9BAAE7D82677 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				20BA9E2B169177F3538DEC798AE9E965 /* SwiduxWatchmen.framework in Embed Frameworks */,
+				96B84D1B6327CD5287C945A0517EF046 /* Swidux.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92CA1AA417A611F318CB8A07E8AC5CD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EB370651C556BBD37192D7527CFAA7A0 /* SwiduxWatchmen.framework in Embed Frameworks */,
+				47F6F1CB3AE87C8C2A64D6F4EE5A6A1C /* Swidux.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		FC3FE57021F7A16D009CA663 /* SwiduxWatchmen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiduxWatchmen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC3FE57321F7A16D009CA663 /* SwiduxWatchmen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiduxWatchmen.h; sourceTree = "<group>"; };
-		FC3FE57421F7A16D009CA663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC3FE57921F7A16D009CA663 /* SwiduxWatchmenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiduxWatchmenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC3FE57E21F7A16D009CA663 /* SwiduxWatchmenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiduxWatchmenTests.swift; sourceTree = "<group>"; };
-		FC3FE58021F7A16D009CA663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC3FE58A21F7A21E009CA663 /* SwiduxWatchmen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiduxWatchmen.swift; sourceTree = "<group>"; };
-		FC3FE58D21F7A291009CA663 /* Swidux.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swidux.xcodeproj; path = Frameworks/swidux/Swidux.xcodeproj; sourceTree = "<group>"; };
+		04BDF9975EE9CAF5C16E851F1C0720C5 /* SwiduxWatchmenTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SwiduxWatchmenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD5774D763E7711E4FCEA46C07DABF4 /* SwiduxWatchmen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiduxWatchmen.swift; sourceTree = "<group>"; };
+		23F725E6ECC5D2BC12412962A98E6039 /* SwiduxWatchmenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiduxWatchmenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4442DC84595D80F111598D86497AEB5C /* Swidux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Swidux.framework; sourceTree = "<group>"; };
+		64BD3FFA0248B0E6D1F5A45081B6A44E /* SwiduxWatchmen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiduxWatchmen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		847624947D12C5F29739AAD04B91F435 /* Swidux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Swidux.framework; sourceTree = "<group>"; };
+		9AD261BA0CD538A28D2EBC4FD6914A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE2D7AD9D82E323E614A5C5A686309E /* SwiduxWatchmen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiduxWatchmen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0FD22F297CE39CF8F805D5A37FE8F11 /* Swidux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Swidux.framework; sourceTree = "<group>"; };
+		B539F109B34AEF311E8BF1940188CDFB /* SwiduxWatchmenTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SwiduxWatchmenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB6AF9B76D360AA7F6164E5F222E8BE /* SwiduxWatchmenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiduxWatchmenTests.swift; sourceTree = "<group>"; };
+		EF416A8E50BEBE9BA5B3B4FB192D9EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD643D26AB0F5AD665B964EB7096971 /* SwiduxWatchmen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiduxWatchmen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FC3FE56D21F7A16D009CA663 /* Frameworks */ = {
+		1071D0623104956A2D18DAC44521F015 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC3FE59821F7A2A7009CA663 /* Swidux.framework in Frameworks */,
+				F0FA7BA5CB8E17154F23FE37A25CBCAD /* SwiduxWatchmen.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC3FE57621F7A16D009CA663 /* Frameworks */ = {
+		285E84BCD304DC5E5AB5FFD0C9714CDD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC3FE57A21F7A16D009CA663 /* SwiduxWatchmen.framework in Frameworks */,
+				4A3DF77BB0E69DE5C5594F37377925F9 /* SwiduxWatchmen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A5E5FF3601F927625EBC54BD52ECEF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D448A5120C98E019F0C27558CA548D28 /* Swidux.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4F7DF4F2FA7B2FC26512B00EBE90ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5178353198E23C33E608AA39BB9325 /* Swidux.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA4DE6F6412ABBB69CA0119C36509A26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956E4352754C585EDE49B0FB1A40BA74 /* SwiduxWatchmen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE046D7C2D826617F972293ECE8D68AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4ACB6692EAE942450A3B951BF87C5C6 /* Swidux.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FC3FE56621F7A16D009CA663 = {
+		0391C810F94C068D5FA6289D1798E59F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				FC3FE58C21F7A234009CA663 /* Frameworks */,
-				FC3FE57221F7A16D009CA663 /* Sources */,
-				FC3FE57D21F7A16D009CA663 /* Tests */,
-				FC3FE57121F7A16D009CA663 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		FC3FE57121F7A16D009CA663 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FC3FE57021F7A16D009CA663 /* SwiduxWatchmen.framework */,
-				FC3FE57921F7A16D009CA663 /* SwiduxWatchmenTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		FC3FE57221F7A16D009CA663 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				FC3FE57421F7A16D009CA663 /* Info.plist */,
-				FC3FE57321F7A16D009CA663 /* SwiduxWatchmen.h */,
-				FC3FE58A21F7A21E009CA663 /* SwiduxWatchmen.swift */,
+				EF416A8E50BEBE9BA5B3B4FB192D9EB3 /* Info.plist */,
+				7CFC3333BF4FFFF1C37CF5FCD0618507 /* SwiduxWatchmen */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		FC3FE57D21F7A16D009CA663 /* Tests */ = {
+		071D70BD273755AF22DE3A5D56F6230A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				FC3FE58021F7A16D009CA663 /* Info.plist */,
-				FC3FE57E21F7A16D009CA663 /* SwiduxWatchmenTests.swift */,
+				9AD261BA0CD538A28D2EBC4FD6914A0A /* Info.plist */,
+				C59869789F7D527B5D3ACC07CCE820F5 /* SwiduxWatchmenTests */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		FC3FE58C21F7A234009CA663 /* Frameworks */ = {
+		1270FE0D818C48CE855A4EB53B8CDC9F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				FC3FE58D21F7A291009CA663 /* Swidux.xcodeproj */,
+				847624947D12C5F29739AAD04B91F435 /* Swidux.framework */,
 			);
-			name = Frameworks;
+			path = iOS;
 			sourceTree = "<group>";
 		};
-		FC3FE58E21F7A291009CA663 /* Products */ = {
+		542EF0F1FE7A3814C6C4893BAAA4F7E8 /* Mac */ = {
 			isa = PBXGroup;
 			children = (
-				FC3FE59521F7A292009CA663 /* Swidux.framework */,
-				FC3FE59721F7A292009CA663 /* SwiduxTests.xctest */,
+				B0FD22F297CE39CF8F805D5A37FE8F11 /* Swidux.framework */,
+			);
+			path = Mac;
+			sourceTree = "<group>";
+		};
+		7C44FEF6C6C5F463A9F1960F875DF423 /* Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				1270FE0D818C48CE855A4EB53B8CDC9F /* iOS */,
+				542EF0F1FE7A3814C6C4893BAAA4F7E8 /* Mac */,
+				A5334A2E20FBD2F15640906959D6C8E7 /* tvOS */,
+			);
+			name = Carthage;
+			path = Carthage/Build;
+			sourceTree = "<group>";
+		};
+		7CFC3333BF4FFFF1C37CF5FCD0618507 /* SwiduxWatchmen */ = {
+			isa = PBXGroup;
+			children = (
+				1FD5774D763E7711E4FCEA46C07DABF4 /* SwiduxWatchmen.swift */,
+			);
+			path = SwiduxWatchmen;
+			sourceTree = "<group>";
+		};
+		8EBC558FE6012A7BFF9060B08705FF2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFD643D26AB0F5AD665B964EB7096971 /* SwiduxWatchmen.framework */,
+				ACE2D7AD9D82E323E614A5C5A686309E /* SwiduxWatchmen.framework */,
+				64BD3FFA0248B0E6D1F5A45081B6A44E /* SwiduxWatchmen.framework */,
+				04BDF9975EE9CAF5C16E851F1C0720C5 /* SwiduxWatchmenTests.xctest */,
+				23F725E6ECC5D2BC12412962A98E6039 /* SwiduxWatchmenTests.xctest */,
+				B539F109B34AEF311E8BF1940188CDFB /* SwiduxWatchmenTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+		97C6D991818D9F46BB35620406EBF45D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C44FEF6C6C5F463A9F1960F875DF423 /* Carthage */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2BB9C16FD17E3C6267ECC688113E425 = {
+			isa = PBXGroup;
+			children = (
+				0391C810F94C068D5FA6289D1798E59F /* Sources */,
+				071D70BD273755AF22DE3A5D56F6230A /* Tests */,
+				97C6D991818D9F46BB35620406EBF45D /* Frameworks */,
+				8EBC558FE6012A7BFF9060B08705FF2C /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		A5334A2E20FBD2F15640906959D6C8E7 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				4442DC84595D80F111598D86497AEB5C /* Swidux.framework */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		C59869789F7D527B5D3ACC07CCE820F5 /* SwiduxWatchmenTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEB6AF9B76D360AA7F6164E5F222E8BE /* SwiduxWatchmenTests.swift */,
+			);
+			path = SwiduxWatchmenTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		FC3FE56B21F7A16D009CA663 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FC3FE58121F7A16D009CA663 /* SwiduxWatchmen.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		FC3FE56F21F7A16D009CA663 /* SwiduxWatchmen */ = {
+		618D3D90468C78204F1794C09022EA8B /* SwiduxWatchmenTests_tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC3FE58421F7A16D009CA663 /* Build configuration list for PBXNativeTarget "SwiduxWatchmen" */;
+			buildConfigurationList = 117370290994FA00CA734F23A9BCBFFC /* Build configuration list for PBXNativeTarget "SwiduxWatchmenTests_tvOS" */;
 			buildPhases = (
-				FC3FE56B21F7A16D009CA663 /* Headers */,
-				FC3FE56C21F7A16D009CA663 /* Sources */,
-				FC3FE56D21F7A16D009CA663 /* Frameworks */,
-				FC3FE56E21F7A16D009CA663 /* Resources */,
+				02344422659521342152A094D5EFAB8A /* Sources */,
+				1071D0623104956A2D18DAC44521F015 /* Frameworks */,
+				D2408FE062E8B153A9DF9BAAE7D82677 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2583FB73F70DEFB11E771F52C8E24F /* PBXTargetDependency */,
+			);
+			name = SwiduxWatchmenTests_tvOS;
+			productName = SwiduxWatchmenTests_tvOS;
+			productReference = B539F109B34AEF311E8BF1940188CDFB /* SwiduxWatchmenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D982E3AA615E0797A6F7BF3E4519A6A /* SwiduxWatchmen_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE1AB14EDFE3459DE8C12F17A9DF2725 /* Build configuration list for PBXNativeTarget "SwiduxWatchmen_iOS" */;
+			buildPhases = (
+				127F043ED2E70BCBD746C19838CE1983 /* Sources */,
+				B4F7DF4F2FA7B2FC26512B00EBE90ECF /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiduxWatchmen;
-			productName = SwiduxWatchmen;
-			productReference = FC3FE57021F7A16D009CA663 /* SwiduxWatchmen.framework */;
+			name = SwiduxWatchmen_iOS;
+			productName = SwiduxWatchmen_iOS;
+			productReference = FFD643D26AB0F5AD665B964EB7096971 /* SwiduxWatchmen.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FC3FE57821F7A16D009CA663 /* SwiduxWatchmenTests */ = {
+		8DEC38C3001255A52DC41AD19B19A6CC /* SwiduxWatchmenTests_macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC3FE58721F7A16D009CA663 /* Build configuration list for PBXNativeTarget "SwiduxWatchmenTests" */;
+			buildConfigurationList = 2C4C0527C9137A80D83130909733A5F3 /* Build configuration list for PBXNativeTarget "SwiduxWatchmenTests_macOS" */;
 			buildPhases = (
-				FC3FE57521F7A16D009CA663 /* Sources */,
-				FC3FE57621F7A16D009CA663 /* Frameworks */,
-				FC3FE57721F7A16D009CA663 /* Resources */,
+				4257A429AB229D5A2E1086F102AA1220 /* Sources */,
+				CA4DE6F6412ABBB69CA0119C36509A26 /* Frameworks */,
+				7BCD2CB740DD1FA8BCE8A0890C293FAA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FC3FE57C21F7A16D009CA663 /* PBXTargetDependency */,
+				14839469A494C920F0ADFFCAA727D6B3 /* PBXTargetDependency */,
 			);
-			name = SwiduxWatchmenTests;
-			productName = SwiduxWatchmenTests;
-			productReference = FC3FE57921F7A16D009CA663 /* SwiduxWatchmenTests.xctest */;
+			name = SwiduxWatchmenTests_macOS;
+			productName = SwiduxWatchmenTests_macOS;
+			productReference = 23F725E6ECC5D2BC12412962A98E6039 /* SwiduxWatchmenTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95C80503A4BD534471D3BDCEC8D89E2F /* SwiduxWatchmenTests_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E278F4A1C7205B4F0FF043EA40534AB4 /* Build configuration list for PBXNativeTarget "SwiduxWatchmenTests_iOS" */;
+			buildPhases = (
+				FA2462AF880A9423347786B24A4B8117 /* Sources */,
+				285E84BCD304DC5E5AB5FFD0C9714CDD /* Frameworks */,
+				D92CA1AA417A611F318CB8A07E8AC5CD /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0B755F7FA00AF78BE82F27ACF8C10A7 /* PBXTargetDependency */,
+			);
+			name = SwiduxWatchmenTests_iOS;
+			productName = SwiduxWatchmenTests_iOS;
+			productReference = 04BDF9975EE9CAF5C16E851F1C0720C5 /* SwiduxWatchmenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFA8CC8D74F3A1570B8FB2E67062214C /* SwiduxWatchmen_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C831487C2B89CBF8223B97D58572825 /* Build configuration list for PBXNativeTarget "SwiduxWatchmen_macOS" */;
+			buildPhases = (
+				4109FFA95E8762357E8854DC42B2A84A /* Sources */,
+				2A5E5FF3601F927625EBC54BD52ECEF3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiduxWatchmen_macOS;
+			productName = SwiduxWatchmen_macOS;
+			productReference = ACE2D7AD9D82E323E614A5C5A686309E /* SwiduxWatchmen.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCC6B4F5671F444969D01B4EFBC06289 /* SwiduxWatchmen_tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A8E53AF29524A17B54E824BA3A2420F /* Build configuration list for PBXNativeTarget "SwiduxWatchmen_tvOS" */;
+			buildPhases = (
+				71C29A854B8BF8F3B7D0464AC2C3D5B6 /* Sources */,
+				DE046D7C2D826617F972293ECE8D68AC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiduxWatchmen_tvOS;
+			productName = SwiduxWatchmen_tvOS;
+			productReference = 64BD3FFA0248B0E6D1F5A45081B6A44E /* SwiduxWatchmen.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FC3FE56721F7A16D009CA663 /* Project object */ = {
+		7275C5B0546F1244246E9857DFE4ABB1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = clmntcrl;
-				TargetAttributes = {
-					FC3FE56F21F7A16D009CA663 = {
-						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
-					};
-					FC3FE57821F7A16D009CA663 = {
-						CreatedOnToolsVersion = 10.1;
-					};
-				};
+				LastUpgradeCheck = 1000;
 			};
-			buildConfigurationList = FC3FE56A21F7A16D009CA663 /* Build configuration list for PBXProject "SwiduxWatchmen" */;
+			buildConfigurationList = 6BAB625099A1ACD01C4BB8143AC1010D /* Build configuration list for PBXProject "SwiduxWatchmen" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = FC3FE56621F7A16D009CA663;
-			productRefGroup = FC3FE57121F7A16D009CA663 /* Products */;
+			mainGroup = A2BB9C16FD17E3C6267ECC688113E425;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = FC3FE58E21F7A291009CA663 /* Products */;
-					ProjectRef = FC3FE58D21F7A291009CA663 /* Swidux.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				FC3FE56F21F7A16D009CA663 /* SwiduxWatchmen */,
-				FC3FE57821F7A16D009CA663 /* SwiduxWatchmenTests */,
+				95C80503A4BD534471D3BDCEC8D89E2F /* SwiduxWatchmenTests_iOS */,
+				8DEC38C3001255A52DC41AD19B19A6CC /* SwiduxWatchmenTests_macOS */,
+				618D3D90468C78204F1794C09022EA8B /* SwiduxWatchmenTests_tvOS */,
+				6D982E3AA615E0797A6F7BF3E4519A6A /* SwiduxWatchmen_iOS */,
+				CFA8CC8D74F3A1570B8FB2E67062214C /* SwiduxWatchmen_macOS */,
+				FCC6B4F5671F444969D01B4EFBC06289 /* SwiduxWatchmen_tvOS */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		FC3FE59521F7A292009CA663 /* Swidux.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Swidux.framework;
-			remoteRef = FC3FE59421F7A292009CA663 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FC3FE59721F7A292009CA663 /* SwiduxTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = file;
-			path = SwiduxTests.xctest;
-			remoteRef = FC3FE59621F7A292009CA663 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
-/* Begin PBXResourcesBuildPhase section */
-		FC3FE56E21F7A16D009CA663 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC3FE57721F7A16D009CA663 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		FC3FE56C21F7A16D009CA663 /* Sources */ = {
+		02344422659521342152A094D5EFAB8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC3FE58B21F7A21E009CA663 /* SwiduxWatchmen.swift in Sources */,
+				C0471D7355B8B70C3D36B31025F0F906 /* SwiduxWatchmenTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC3FE57521F7A16D009CA663 /* Sources */ = {
+		127F043ED2E70BCBD746C19838CE1983 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC3FE57F21F7A16D009CA663 /* SwiduxWatchmenTests.swift in Sources */,
+				0FA6577339B08DE988466A24388F9799 /* SwiduxWatchmen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4109FFA95E8762357E8854DC42B2A84A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7DE7681F65B06718D01487190ECAD3 /* SwiduxWatchmen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4257A429AB229D5A2E1086F102AA1220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B73CE583B99BF4C7119CAE18770091 /* SwiduxWatchmenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C29A854B8BF8F3B7D0464AC2C3D5B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA5C5369EC12224330256ECAF0F42F8 /* SwiduxWatchmen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2462AF880A9423347786B24A4B8117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3CA772FFA7153B689ABB7B72A5410B /* SwiduxWatchmenTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FC3FE57C21F7A16D009CA663 /* PBXTargetDependency */ = {
+		14839469A494C920F0ADFFCAA727D6B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FC3FE56F21F7A16D009CA663 /* SwiduxWatchmen */;
-			targetProxy = FC3FE57B21F7A16D009CA663 /* PBXContainerItemProxy */;
+			target = CFA8CC8D74F3A1570B8FB2E67062214C /* SwiduxWatchmen_macOS */;
+			targetProxy = CB51B6C93E7573599FEC91DD654A8BE7 /* PBXContainerItemProxy */;
+		};
+		C0B755F7FA00AF78BE82F27ACF8C10A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D982E3AA615E0797A6F7BF3E4519A6A /* SwiduxWatchmen_iOS */;
+			targetProxy = D5ADE9EEEE335587631941F1E6FF874B /* PBXContainerItemProxy */;
+		};
+		EC2583FB73F70DEFB11E771F52C8E24F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCC6B4F5671F444969D01B4EFBC06289 /* SwiduxWatchmen_tvOS */;
+			targetProxy = DF1225C87F6BE29C73C45BDDF6C78130 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		FC3FE58221F7A16D009CA663 /* Debug */ = {
+		03A957F736EB135704190703F91A517D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.clmntcrl.SwiduxWatchmen-iOS";
+				PRODUCT_NAME = SwiduxWatchmen;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		FC3FE58321F7A16D009CA663 /* Release */ = {
+		32E6E7FFE1E63483E859C64DC8A0FF1A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -353,7 +500,6 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -375,9 +521,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -389,140 +533,371 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		FC3FE58521F7A16D009CA663 /* Debug */ = {
+		529AAF5312820300C3C9C2DDBAEB03F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = W624386YMM;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
+					"DEBUG=1",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.clmntcrl.SwiduxWatchmen;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		700B01123441A1849C5A94F0A91343B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.clmntcrl.SwiduxWatchmenTests-iOS";
+				PRODUCT_NAME = SwiduxWatchmenTests;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		FC3FE58621F7A16D009CA663 /* Release */ = {
+		7F4A6538C78BCCB802AD62927C374CB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = W624386YMM;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.clmntcrl.SwiduxWatchmen;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.clmntcrl.SwiduxWatchmen-iOS";
+				PRODUCT_NAME = SwiduxWatchmen;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		FC3FE58821F7A16D009CA663 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W624386YMM;
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.clmntcrl.SwiduxWatchmenTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
-		FC3FE58921F7A16D009CA663 /* Release */ = {
+		9470C0F191ABA5874A9B612A5625A6B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W624386YMM;
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.clmntcrl.SwiduxWatchmenTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.clmntcrl.SwiduxWatchmen-macOS";
+				PRODUCT_NAME = SwiduxWatchmen;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		96E1F697BD7351DB9EDB0E0900E03E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.clmntcrl.SwiduxWatchmenTests-tvOS";
+				PRODUCT_NAME = SwiduxWatchmenTests;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		98663B43F7729BFA28F0CDE56B0E1E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.clmntcrl.SwiduxWatchmen-tvOS";
+				PRODUCT_NAME = SwiduxWatchmen;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		A091BC09497334B4115588F3282AD924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.clmntcrl.SwiduxWatchmen-tvOS";
+				PRODUCT_NAME = SwiduxWatchmen;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		B3A6E9CBFF035459965479C1D617637D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.clmntcrl.SwiduxWatchmenTests-macOS";
+				PRODUCT_NAME = SwiduxWatchmenTests;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B3EBAD7C9432BE717825E51B028510A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.clmntcrl.SwiduxWatchmenTests-macOS";
+				PRODUCT_NAME = SwiduxWatchmenTests;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BB24A34054F1A7E31CB5BD9391EA9A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.clmntcrl.SwiduxWatchmenTests-tvOS";
+				PRODUCT_NAME = SwiduxWatchmenTests;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		F6FB4E125E186A8BA98A81CA2C8A9CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.clmntcrl.SwiduxWatchmenTests-iOS";
+				PRODUCT_NAME = SwiduxWatchmenTests;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
+		};
+		FCF1149AF7F32F7763710CD7EFF76906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.clmntcrl.SwiduxWatchmen-macOS";
+				PRODUCT_NAME = SwiduxWatchmen;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FC3FE56A21F7A16D009CA663 /* Build configuration list for PBXProject "SwiduxWatchmen" */ = {
+		0C831487C2B89CBF8223B97D58572825 /* Build configuration list for PBXNativeTarget "SwiduxWatchmen_macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC3FE58221F7A16D009CA663 /* Debug */,
-				FC3FE58321F7A16D009CA663 /* Release */,
+				FCF1149AF7F32F7763710CD7EFF76906 /* Debug */,
+				9470C0F191ABA5874A9B612A5625A6B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "";
 		};
-		FC3FE58421F7A16D009CA663 /* Build configuration list for PBXNativeTarget "SwiduxWatchmen" */ = {
+		117370290994FA00CA734F23A9BCBFFC /* Build configuration list for PBXNativeTarget "SwiduxWatchmenTests_tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC3FE58521F7A16D009CA663 /* Debug */,
-				FC3FE58621F7A16D009CA663 /* Release */,
+				BB24A34054F1A7E31CB5BD9391EA9A28 /* Debug */,
+				96E1F697BD7351DB9EDB0E0900E03E86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "";
 		};
-		FC3FE58721F7A16D009CA663 /* Build configuration list for PBXNativeTarget "SwiduxWatchmenTests" */ = {
+		2C4C0527C9137A80D83130909733A5F3 /* Build configuration list for PBXNativeTarget "SwiduxWatchmenTests_macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC3FE58821F7A16D009CA663 /* Debug */,
-				FC3FE58921F7A16D009CA663 /* Release */,
+				B3A6E9CBFF035459965479C1D617637D /* Debug */,
+				B3EBAD7C9432BE717825E51B028510A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "";
+		};
+		6BAB625099A1ACD01C4BB8143AC1010D /* Build configuration list for PBXProject "SwiduxWatchmen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529AAF5312820300C3C9C2DDBAEB03F2 /* Debug */,
+				32E6E7FFE1E63483E859C64DC8A0FF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8A8E53AF29524A17B54E824BA3A2420F /* Build configuration list for PBXNativeTarget "SwiduxWatchmen_tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98663B43F7729BFA28F0CDE56B0E1E79 /* Debug */,
+				A091BC09497334B4115588F3282AD924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		AE1AB14EDFE3459DE8C12F17A9DF2725 /* Build configuration list for PBXNativeTarget "SwiduxWatchmen_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4A6538C78BCCB802AD62927C374CB2 /* Debug */,
+				03A957F736EB135704190703F91A517D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		E278F4A1C7205B4F0FF043EA40534AB4 /* Build configuration list for PBXNativeTarget "SwiduxWatchmenTests_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700B01123441A1849C5A94F0A91343B7 /* Debug */,
+				F6FB4E125E186A8BA98A81CA2C8A9CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FC3FE56721F7A16D009CA663 /* Project object */;
+	rootObject = 7275C5B0546F1244246E9857DFE4ABB1 /* Project object */;
 }
