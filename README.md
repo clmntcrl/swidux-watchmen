@@ -37,6 +37,34 @@ let store = Store<AppState>(
 )
 ```
 
+## Installation
+
+### [Carthage](https://github.com/Carthage/Carthage)
+
+Add the following dependency to your `Cartfile`:
+
+```ruby
+github "clmntcrl/swidux-watchmen" ~> 0.2
+```
+
+### [CocoaPods](https://cocoapods.org)
+
+Add the following pod to your `Podfile`:
+
+```ruby
+pod 'SwiduxWatchmen', '~> 0.2'
+```
+
+### [SwiftPM](https://github.com/apple/swift-package-manager)
+
+Add the package as dependency in your `Package.swift`:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/clmntcrl/swidux-watchmen.git", from: "0.2.0"),
+]
+```
+
 ## License
 
 SwiduxWatchmen is released under the MIT license. See [LICENSE](LICENSE) for details.
