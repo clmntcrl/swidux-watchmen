@@ -240,9 +240,9 @@
 				97C6D991818D9F46BB35620406EBF45D /* Frameworks */,
 				8EBC558FE6012A7BFF9060B08705FF2C /* Products */,
 			);
-			indentWidth = 2;
+			indentWidth = 4;
 			sourceTree = "<group>";
-			tabWidth = 2;
+			tabWidth = 4;
 			usesTabs = 0;
 		};
 		A5334A2E20FBD2F15640906959D6C8E7 /* tvOS */ = {
