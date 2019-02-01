@@ -2,10 +2,6 @@
 
 Middleware for action side effects in [Swidux](https://github.com/clmntcrl/swidux) using “Watchmen“ 🙂
 
-## Stability
-
-This library should be considered alpha, and not stable. Breaking changes will happen often.
-
 ## Usage
 
 Create a `Watchmen` that could react to some actions to handle side effects and then dispatch other actions.
